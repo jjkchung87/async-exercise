@@ -1,0 +1,19 @@
+#card-area {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .card {
+    width: 100px;
+    height: 150px;
+    margin-right: -60px; /* Negative margin to overlap cards slightly */
+    position: relative;
+  }
+  
+  .card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* transform: rotateY(180deg); Flip the card */
+  }
+  
